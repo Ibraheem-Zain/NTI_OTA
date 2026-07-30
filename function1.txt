@@ -1,0 +1,5 @@
+if (msg.payload === "Update required" || msg.payload === "update") {
+    return { enabled: true };
+} else {
+    return { enabled: false };
+}
